@@ -1,0 +1,6 @@
+SELECT nome
+    FROM dbo.cats
+UNION
+SELECT nome
+    FROM dbo.dogs
+ORDER BY nome;
